@@ -26,8 +26,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         score = 0;
-        gameOverText.enabled = false;
-        restartButton.enabled = false;
+        gameOverText.gameObject.SetActive(false);
+        restartButton.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,8 +38,8 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        gameOverText.enabled = true;
-        restartButton.enabled = true;
+        gameOverText.gameObject.SetActive(true);
+        restartButton.gameObject.SetActive(true);
     }
 
     public void Restart()
