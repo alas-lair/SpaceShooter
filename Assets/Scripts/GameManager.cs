@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
         set
         {
             score = value;
-            scoreText.text = score.ToString();
+            scoreText.text = $"Score: {score}";
         }
     }
 
