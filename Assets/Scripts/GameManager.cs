@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         gameOverText.enabled = true;
-        restartButton.enabled = false;
+        restartButton.enabled = true;
     }
 
     public void Restart()

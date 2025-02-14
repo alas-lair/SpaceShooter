@@ -660,9 +660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23baed61321dc1b4981234da1627c31f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  gameOverText: {fileID: 0}
-  restartButton: {fileID: 0}
+  scoreText: {fileID: 201897201}
+  gameOverText: {fileID: 144493341}
+  restartButton: {fileID: 563578267}
 --- !u!4 &483314395
 Transform:
   m_ObjectHideFlags: 0
