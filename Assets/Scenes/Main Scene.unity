@@ -667,8 +667,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1715316023}
   - component: {fileID: 1715316022}
-  - component: {fileID: 1715316024}
   - component: {fileID: 1715316025}
+  - component: {fileID: 1715316024}
   m_Layer: 0
   m_Name: Player Ship
   m_TagString: Untagged
@@ -759,6 +759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  laser: {fileID: 1831491961}
 --- !u!58 &1715316025
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -795,6 +796,11 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!1 &1831491961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229225174372553851, guid: cf0b2126b784d124d9d9ba1ad75ec3df, type: 3}
+  m_PrefabInstance: {fileID: 6471533596640495704}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6471533596640495704
 PrefabInstance:
   m_ObjectHideFlags: 0
