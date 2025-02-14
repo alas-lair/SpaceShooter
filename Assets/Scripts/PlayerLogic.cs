@@ -3,7 +3,7 @@ using UnityEngine.InputSystem.Processors;
 
 public class PlayerLogic : MonoBehaviour
 {
-    int speed = 1;
+    [SerializeField] int speed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
