@@ -14,4 +14,13 @@ public class Enemy : MonoBehaviour
     {
         transform.Translate(Vector2.down * Time.deltaTime * speed);
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // If the enemy has hit a projectile
+        if (collision.gameObject.GetComponent<Projectile>() != null)
+        {
+            Destroy(gameObject);
+        }
+    }
 }
