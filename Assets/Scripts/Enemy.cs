@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
         // If the enemy has hit a projectile
         if (collision.gameObject.GetComponent<Projectile>() != null)
         {
+            FindFirstObjectByType<GameManager>().Score++;
             Destroy(gameObject);
         }
     }
