@@ -21,7 +21,7 @@ public class Projectile : MonoBehaviour
         elapsedTime += Time.deltaTime;
         if (elapsedTime >= dieAfterSeconds)
         {
-
+            Destroy(gameObject);
         }
     }
 }
